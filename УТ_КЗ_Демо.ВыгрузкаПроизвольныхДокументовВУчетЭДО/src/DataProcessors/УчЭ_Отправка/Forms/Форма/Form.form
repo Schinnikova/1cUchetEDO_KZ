@@ -1809,6 +1809,7 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Организация</segments>
     </settingsSavedData>
+    <savedData>true</savedData>
   </attributes>
   <attributes>
     <name>ПарольОтЭЦП</name>
