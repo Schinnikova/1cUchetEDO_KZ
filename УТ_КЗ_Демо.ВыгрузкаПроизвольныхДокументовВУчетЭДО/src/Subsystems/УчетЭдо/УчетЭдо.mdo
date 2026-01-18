@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c5c993d-b464-45d0-bcbd-43a2833a8221">
+  <name>УчетЭдо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ЭДО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.УчЭ_Отправка</content>
+  <content>CommonModule.УчетЭДОВызовСервера</content>
+  <content>CommonModule.КоннекторHTTP</content>
+  <content>CommonModule.УчетЭДОКлиент</content>
+</mdclass:Subsystem>

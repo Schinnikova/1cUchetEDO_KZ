@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab83a318-42ef-4243-9e91-ce9a797251b9">
+  <name>УчетЭДОКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет.ЭДО подписание документов</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

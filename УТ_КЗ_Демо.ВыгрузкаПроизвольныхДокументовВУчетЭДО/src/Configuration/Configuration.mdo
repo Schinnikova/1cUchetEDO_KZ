@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4b6a93b2-9f3e-4a6a-8bc7-b0367334dcd1">
+  <name>ВыгрузкаПроизвольныхДокументовВУчетЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка произвольных документов в учет ЭДО</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <defaultStyle>Extended</defaultStyle>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f40fbbbd-c6f7-43be-aa7d-51d83b71c74e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6fe7382a-7b70-4775-973f-334c4ac19b9e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="587a9026-830d-42fe-832a-7edc37dbdfa7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b9250df3-32ee-4ef3-9124-6b7c74ce47b6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3203dc1f-a9fe-4f3f-96c0-387dfdf92969"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3d251715-71b7-4b7d-a956-2afd654bdcbf"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1d02ac0b-60c9-4c9e-b20a-c869a9cb49b2"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>УчЭ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <languages uuid="35f74273-1d41-49c0-8a07-7e0488967837">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УчетЭдо</subsystems>
+  <commonModules>CommonModule.КодыСостоянияОтветаHTTPКлиентСервер</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
+  <commonModules>CommonModule.УчетЭДОВызовСервера</commonModules>
+  <commonModules>CommonModule.УчетЭДОКлиент</commonModules>
+  <commonModules>CommonModule.УчетЭДООбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.УчетЭДОУправлениеСвойствами</commonModules>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documentNumerators>DocumentNumerator.ДокументыРеализацииТоваров</documentNumerators>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <dataProcessors>DataProcessor.УчЭ_Отправка</dataProcessors>
+  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

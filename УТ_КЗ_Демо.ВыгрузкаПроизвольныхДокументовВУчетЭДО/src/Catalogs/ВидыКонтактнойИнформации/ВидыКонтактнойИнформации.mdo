@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b76a967b-a8df-4bfc-83e8-66d161712ce5" extendedConfigurationObject="782cb93d-36e6-4923-b2b6-75caa3459cd6">
+  <producedTypes>
+    <objectType typeId="8637297b-2197-4f64-a6d4-e25d32e416da" valueTypeId="36f17aaa-4cc6-4bad-b50a-ec9a5e858da2"/>
+    <refType typeId="aa8698cf-049c-41d4-a37c-c7a03bf26042" valueTypeId="6b702a02-71b4-40f9-8271-55643c8896ff"/>
+    <selectionType typeId="68ca7247-ed53-45b2-bbb5-ed9b9a8e8797" valueTypeId="d8563480-cd63-4ec9-b88e-215ad5387aa4"/>
+    <listType typeId="17417fba-fa5c-4887-8a84-a0e4edd92382" valueTypeId="0a3ef9d2-d350-4019-916a-1da084b85ae1"/>
+    <managerType typeId="b7c6f853-d501-4e14-a478-c1f69c22123b" valueTypeId="0590033b-8b2f-4273-a9f9-14d5709bacf4"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Extended</predefined>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="0c50dac4-562c-4cb4-a91c-a846bd310d76">
+      <name>СправочникКонтрагенты</name>
+      <description>Контактная информация справочника &quot;Контрагенты&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="66ab625e-951a-4d47-a17a-e0250413721d">
+        <name>EmailКонтрагента</name>
+        <description>Электронная почта</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <attributes uuid="5f7e5d3c-0a63-4927-8543-ec155c2ed58a" extendedConfigurationObject="2767473e-79fb-4c7c-a7d1-a83a8f2df71d">
+    <name>Тип</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыКонтактнойИнформации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

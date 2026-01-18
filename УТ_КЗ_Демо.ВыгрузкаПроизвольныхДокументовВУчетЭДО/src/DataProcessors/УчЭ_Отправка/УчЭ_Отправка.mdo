@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77cfe68f-6e40-474c-9309-2847ad9e30cd">
+  <producedTypes>
+    <objectType typeId="17d2f470-0355-4988-91bc-8c6455cded67" valueTypeId="21fe58cb-ce9e-4259-bbb1-102485e430f3"/>
+    <managerType typeId="e0670532-72aa-4b4d-a92b-e4c417213f24" valueTypeId="6f83c36b-65fd-4da0-9fe4-7b579395dbe7"/>
+  </producedTypes>
+  <name>УчЭ_Отправка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка реализаций в Учет.ЭДО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УчЭ_Отправка.Form.Форма</defaultForm>
+  <forms uuid="41d1bc01-bcf6-459f-9b6f-53bc57ea5797">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87a5046c-22ea-4120-a62a-6d74e4e81513">
+    <name>ФормаПодписанияДокументаУчетЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подписания документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fe3e589a-d78c-475f-b701-d0a68c762bbc">
+    <name>МножественноеПодписаниеУчетЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Множественное подписание учет ЭДО</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="32f73a63-fe35-45f9-8203-41a9ae30b7d5">
+    <name>ОдиночноеПодписаниеУчетЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одиночное подписание учет ЭДО</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>
