@@ -2840,6 +2840,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Отозвать</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
