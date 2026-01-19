@@ -27,6 +27,6 @@
 ## Тестовый контур
 
 - **Песочница:** https://test-edo.uchet.kz
-- **Документация:**: https://test-edo.uchet.kz/apidocs/guide
+- **Документация:** https://test-edo.uchet.kz/apidocs/guide
 - **Получить тестовый сертификат:** https://pki.gov.kz/developers
-- **Утилита для подписи:**: https://pki.gov.kz/en/ncalayer-2
+- **Утилита для подписи:** https://pki.gov.kz/en/ncalayer-2
