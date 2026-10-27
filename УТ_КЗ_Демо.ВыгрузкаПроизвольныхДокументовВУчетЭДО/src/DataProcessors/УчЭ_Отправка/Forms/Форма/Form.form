@@ -1887,7 +1887,7 @@
       <segments>Список.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ
+      <queryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	РеализацияТоваровУслуг.Номер КАК Номер,
 	РеализацияТоваровУслуг.Дата КАК Дата,
 	РеализацияТоваровУслуг.Проведен КАК Проведен,
